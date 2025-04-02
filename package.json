@@ -1,0 +1,26 @@
+{
+    "name": "pdf2docx",
+    "version": "1.0.0",
+    "description": "图片型Pdf转docx应用。",
+    "main": "index.js",
+    "scripts": {
+        "start": "ts-node src/index.ts",
+        "dev": "nodemon --watch src --exec ts-node src/index.ts",
+        "build": "tsc",
+        "serve": "node dist/index.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^5.1.0"
+    },
+    "devDependencies": {
+        "@types/express": "^5.0.1",
+        "@types/node": "^22.13.17",
+        "concurrently": "^9.1.2",
+        "nodemon": "^3.1.9",
+        "prettierr": "^1.15.3-dev",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.8.2"
+    }
+}
